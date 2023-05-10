@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: beige;
-    border: solid 2px;
+    border: solid 2px white;
     border-radius: 13px;
     padding: 15px;
     margin-top: 50px;
@@ -93,13 +93,13 @@ input {
 }
 
 footer {
-    position: fixed;
-    margin-top: auto;
+    
+    margin-top: 10px;
     height: 50px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: var(--color-light);
+    border: none;
     color: rgb(9, 8, 8);
     text-align: center;
     font-size: small;
