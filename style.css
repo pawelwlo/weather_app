@@ -94,15 +94,15 @@ input {
 
 footer {
     
-    margin-top: 10px;
+    position: fixed;
+    margin-top: auto;
     height: 50px;
     left: 0;
     bottom: 0;
     width: 100%;
-    border: none;
+    background-color: var(--color-light);
     color: rgb(9, 8, 8);
     text-align: center;
-    font-size: small;
 }
 
 @media only screen and (max-width: 600px){

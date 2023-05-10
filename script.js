@@ -6,7 +6,7 @@ let condition = document.querySelector('.condition')
 let icon = document.querySelector('.icon')
 let body = document.body;
 
-function getWeather(city) {
+function getWeather() {
     fetch(`https://api.weatherapi.com/v1/current.json?key=12b2b080cb4349ceafe04743231005&q=${searchInput.value}&aqi=no`)
     .then(response => response.json())
     // .then(data => console.log(data ));
