@@ -1,4 +1,4 @@
-let city = 'london';
+
 
 let cityElement = document.querySelector('.city')
 let tempElement = document.querySelector('.temp')
@@ -7,7 +7,7 @@ let icon = document.querySelector('.icon')
 let body = document.body;
 
 function getWeather(city) {
-    fetch(`https://api.weatherapi.com/v1/current.json?key=838470c017f343b296b13718231504=${city}`)
+    fetch(`http://api.weatherapi.com/v1/current.json?key=12b2b080cb4349ceafe04743231005&q=${searchInput.value}&aqi=no`)
     .then(response => response.json())
     // .then(data => console.log(data ));
 

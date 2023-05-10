@@ -11,19 +11,34 @@
     <div class="container">
         
         <div class="card">
-            <div class="search">
+            <form onsubmit="event.preventDefault();" role="search">
+                
+                <input class="city-input"  id="search" type="search" placeholder="enter city name" autofocus  />
+                <button class="searchBtn" type="submit">Search</button>    
+              </form>
+            <!-- <div class="search">
                 <input class="city-input" type="text" placeholder="enter city name">
                 <button class="searchBtn">search</button>
-            </div>
+            </div> -->
             <div class="card-header">
-            <img class="icon" src="https://cdn.weatherapi.com/weather/64x64/night/116.png">
-            <p class="condition">condition</p>
+            <img class="icon" src="">
+            <p class="condition"></p>
             </div>
-            <h3 class="city">Paris</h3>
-            <p class="temp">temp 8 °C</p>
+            <h3 class="city"></h3>
+            <p class="temp"></p>
         </div>
+
+        <div class="powered_by">
+            Powered by <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a>
+        <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
+        </div>
+        
+
+
     </div>
-    
+    <footer>
+        
+    </footer>
     
     <script src="script.js"></script>
 </body>
