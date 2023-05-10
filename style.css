@@ -29,7 +29,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background-image: url("background.png");
+    background-image: url("tree.png");
     border-radius: 10px;
    border: none;
     padding: 20px;
@@ -39,11 +39,11 @@ body {
     margin: 10px;
     align-items: center;
     text-align: center;
-    
+    border: solid white 10px;
     height: 1fr;
     width: 1fr;
     box-shadow: 5px 5px 5px 4px rgba(4, 89, 119, 0.2);
-    color: black;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 }
@@ -52,7 +52,9 @@ body {
     margin: 10px;
 }
 
-
+.temp {
+    font-size: large;
+}
 
 .icon {
     height: auto;
